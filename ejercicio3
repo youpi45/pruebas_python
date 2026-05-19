@@ -1,0 +1,20 @@
+pares = 0
+impares = 0
+
+while True:
+     numero = int(input("introduce un numero o el 0 para salir  "))
+     if numero == 0:
+        print("fin del programa")
+        break
+     if numero %2==0:
+        print ("   numero es par")
+        pares += 1
+     else:
+
+        print ("   numero es inpar")
+        impares += 1
+
+print (f"el numero de Pares es: {pares} ") 
+print (f"el numero de Impares es: {impares}")
+
+
